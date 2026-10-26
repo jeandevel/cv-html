@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    border-bottom: 3px solid #1a4d8f;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+}
+
+section {
+    background-color: white;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #1a4d8f;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+}
+
+a {
+    color: #1a4d8f;
+}
+
+a:hover {
+    color: #e07b00;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 24px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
